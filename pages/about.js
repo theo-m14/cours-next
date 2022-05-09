@@ -1,11 +1,11 @@
 import React from "react";
 
-const index = () => {
+const about = () => {
   return (
     <div>
-      <h2>Blog</h2>
+      <h2>About</h2>
     </div>
   );
 };
 
-export default index;
+export default about;
