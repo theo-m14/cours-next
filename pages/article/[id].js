@@ -8,7 +8,9 @@ const article = ({ article }) => {
       <Meta title={article.title} />
       <h2>{article.title}</h2>
       <p>{article.body}</p>
-      <Link href="/">Retour à l'acceuil</Link>
+      <Link href="/">
+        <a>Retour à l{"'"}acceuil</a>
+      </Link>
     </div>
   );
 };
